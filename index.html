@@ -18,7 +18,7 @@
       <header class="menu-navigation">
         <h1>Filmes Populares</h1>
 
-        <form class="form-search">
+        <div class="form-search">
           <input type="text" class="search-input" />
           <button type="submit" class="search-button">
             <svg
@@ -46,20 +46,17 @@
           </button>
 
           <label class="showMovieText">
-            <input
-              type="checkbox"
-              name="show-movie"
-              id="showMovie"
-              class="showMovie"
-            />
+            <input type="checkbox" name="show-movie" id="showMovie" />
             <span>Mostrar filmes populares</span>
           </label>
-        </form>
+        </div>
       </header>
       <section class="sectionCardsMovie">
         <div class="cardMovie">
           <img src="" alt="" class="imgCardMovie" />
+
           <p class="titleCardMovie">Titulo do filme</p>
+
           <div class="notesAndButtonMovie">
             <span class="notesCard">
               <svg
@@ -95,6 +92,7 @@
               Favoritar
             </button>
           </div>
+
           <p class="descriptionCardMovie">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
             distinctio explicabo ullam quam ea ex porro aliquid cum tempora ipsa
