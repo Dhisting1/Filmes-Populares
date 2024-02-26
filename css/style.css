@@ -250,13 +250,17 @@ body{
         align-items: center;
     }
     .cardMovie{
-        width: 50%;
-        gap: 80px;
+        width: 100%;
+        gap: 50px;
     }
     .descriptionCardMovie{
         /* background-color: red; */
         width: 50%;
         font-size: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* número de linhas que você deseja exibir */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     .icons{
         gap: 40px;
