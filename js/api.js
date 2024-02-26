@@ -14,7 +14,5 @@ export async function getImageMovie(id) {
   const response = await fetch(url, api_key);
   const data = await response.json();
 
-  console.log(data);
+  return data;
 }
-
-getImageMovie(299536);
